@@ -5,7 +5,7 @@ CREATE TABLE `wallet_summary` (
 `id` int(11) NOT NULL AUTO_INCREMENT,
 `amount` DOUBLE NOT NULL,
 `credited_date_time` DATETIME NOT NULL,
- current_balance DOUBLE NOT NULL,
+ `current_balance` DOUBLE NOT NULL,
 PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
